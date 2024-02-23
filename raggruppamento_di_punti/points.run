@@ -1,0 +1,6 @@
+reset;
+option solver gurobi;
+model raggruppamento_di_punti\points.mod;
+data raggruppamento_di_punti\points.dat;
+solve;
+display x;
